@@ -1,6 +1,8 @@
 # wikiplot
 python scripts for extracting plot summaries from English wikipedia
 
+unrelated to the `wikiplots` project which I only found months after doing this
+
 # Usage
 
 ## Download XML
