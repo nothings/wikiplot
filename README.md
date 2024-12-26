@@ -33,3 +33,9 @@ The processing is broken into two steps. The first step, `wikiplot_1`, extracts 
 
 1. Run 'wikiplot_1.py' to create `wikiplots_db.txt`. This will take a while to parse the ~90 GB XML file and extracts all the `Plot` sections of all articles with them.
 2. Run 'wikiplot_2.py' to process `wikiplots_db.txt`, creating the final HTML output
+
+# Changes
+
+I do not plan to accept Pull Requests or make significant changes based on user requests, as these are scripts meant to be used
+nfrequently (never), and are mostly provided just on the off-chance someone wants or needs them. The requirement that the scripts
+be modified rather than accept command-line arguments is intentional for the same reason.
