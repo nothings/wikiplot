@@ -167,7 +167,7 @@ for i in range(1,len(articles),2):
             continue
 
         output.append(f"<div align=right><small>{title}</small></div>\n" + html)
-        if len(output) >= 200:
+        if len(output) >= summaries_per_html_file:
             writefile()
     else:
         print("INVALID: ", parts[1][:1000])
